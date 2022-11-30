@@ -1,13 +1,16 @@
 package DIT953;
 
 /* This is now all we (can) use from the sub-package */
-import DIT953.polygonModel.polygon.IPolygon;
-import DIT953.polygonModel.polygon.PolygonFactory;
+//import DIT953.polygonModel.polygon.IPolygon;
+//import DIT953.polygonModel.polygon.PolygonFactory;
+
 
 /* By commenting out the imports above, and instead importing the adapter package,
  * we effectively switch to using the DIT953.model.shapes package.
  */
 //import DIT953.model.adapter.*;
+
+import DIT953.polygonModel.adapter.*;
 
 import javax.swing.*;
 import java.awt.Graphics;
